@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<!-- 用户注册 -->
+	<servlet>
+		<servlet-name>RegServlet</servlet-name>
+		<servlet-class>com.lxy.servlet.RegServlet</servlet-class>
+	</servlet>
+	<!-- 用户登录 -->
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.lxy.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AdminloginServlet</servlet-name>
+		<servlet-class>com.lxy.servlet.AdminloginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RoomServlet</servlet-name>
+		<servlet-class>com.lxy.servlet.RoomServlet</servlet-class>
+	</servlet>
+	
+	<!-- 用户退出 -->
+	<servlet>
+		<servlet-name>ExitServlet</servlet-name>
+		<servlet-class>com.lxy.servlet.ExitServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FastorderServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.FastorderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WatchorderServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.WatchorderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.ShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowroomServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.ShowroomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoworderServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.ShoworderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.DelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeroomServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.ChangeroomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeuserServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.ChangeuserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdduserServlet</servlet-name>
+    <servlet-class>com.lxy.servlet.AdduserServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+	<!-- Servlet映射 -->
+	<servlet-mapping>
+		<servlet-name>RegServlet</servlet-name>
+		<url-pattern>/RegServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminloginServlet</servlet-name>
+		<url-pattern>/AdminloginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RoomServlet</servlet-name>
+		<url-pattern>/RoomServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExitServlet</servlet-name>
+		<url-pattern>/ExitServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FastorderServlet</servlet-name>
+    <url-pattern>/FastorderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WatchorderServlet</servlet-name>
+    <url-pattern>/WatchorderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowServlet</servlet-name>
+    <url-pattern>/ShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowroomServlet</servlet-name>
+    <url-pattern>/ShowroomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoworderServlet</servlet-name>
+    <url-pattern>/ShoworderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/DelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeroomServlet</servlet-name>
+    <url-pattern>/ChangeroomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeuserServlet</servlet-name>
+    <url-pattern>/ChangeuserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdduserServlet</servlet-name>
+    <url-pattern>/AdduserServlet</url-pattern>
+  </servlet-mapping>
+	<!-- 过滤器 -->
+	<filter>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<filter-class>com.lxy.code.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>GBK</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+	<!-- 主页 -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
